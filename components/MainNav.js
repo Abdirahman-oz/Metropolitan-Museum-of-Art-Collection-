@@ -51,7 +51,7 @@ export default function MainNav() {
 
     return (
         <>
-             <Navbar
+            <Navbar
                 key={router.pathname}
                 expand="lg"
                 className={`fixed-top navbar navbar-dark bg-dark ${isExpanded ? 'expanded' : ''}`}
@@ -64,25 +64,30 @@ export default function MainNav() {
                             <Link href="/" passHref legacyBehavior>
                                 <Nav.Link as="a" className={`navbar-link ${router.pathname === '/' ? 'active' : ''}`} onClick={handleNavLinkClick}>Home</Nav.Link>
                             </Link>
-                            </Nav>
                             {token && (
-                                <>
-                                    <Link href="/search" passHref legacyBehavior>
-                                        <Nav.Link as="a" className={`navbar-link ${router.pathname === '/search' ? 'active' : ''}`} onClick={handleNavLinkClick}>Advanced Search</Nav.Link>
-                                    </Link>
-                                    <Form className="d-flex" onSubmit={handleSubmit(submitForm)}>
-                                        <Form.Control
-                                            type="search"
-                                            placeholder="Search"
-                                            className="me-2"
-                                            aria-label="Search"
-                                            {...register('searchField')}
-                                        />
-                                        <Button variant="success" type='submit'>Search</Button>
-                                    </Form>
-                                </>
+
+                                <Link href="/search" passHref legacyBehavior>
+                                    <Nav.Link as="a" className={`navbar-link ${router.pathname === '/search' ? 'active' : ''}`} onClick={handleNavLinkClick}>Advanced Search</Nav.Link>
+                                </Link>
+
                             )}
-             
+                        </Nav>
+                        {token && (
+                            <>
+
+                                <Form className="d-flex" onSubmit={handleSubmit(submitForm)}>
+                                    <Form.Control
+                                        type="search"
+                                        placeholder="Search"
+                                        className="me-2"
+                                        aria-label="Search"
+                                        {...register('searchField')}
+                                    />
+                                    <Button variant="success" type='submit'>Search</Button>
+                                </Form>
+                            </>
+                        )}
+
                         <Nav>
                             {token ? (
                                 <NavDropdown title={token.userName} id="basic-nav-dropdown">

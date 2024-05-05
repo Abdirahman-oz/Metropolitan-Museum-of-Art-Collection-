@@ -1,38 +1,47 @@
+Metropolitan Museum of Art Collection Viewer
+Demo Link
+https://metropolitan-museum-of-art-collec-abdirahmans-projects-ac8fc79f.vercel.app/
 
-Museum of Art Collection API
+About The App
+This project is a responsive web application developed with Next.js and Bootstrap for viewing data from the Metropolitan Museum of Art Collection API. The interface allows users to search and view art collection data seamlessly across various devices, with built-in authentication functionality.
 
-This project is a responsive user interface developed with Next.js for viewing data from the Metropolitan Museum of Art Collection API. The interface allows users to search and view art collection data seamlessly across various devices, with authentication functionality.
+Technologies
+Next.js: Framework used for server-side rendering and building the frontend application.
+Bootstrap: Frontend framework used for responsive design and layout of the user interface.
+First, run the development server:
 
-Technologies Used
-Next.js: Used for building the frontend application with server-side rendering and routing capabilities.
-Bootstrap: Utilized for responsive styling and layout of the user interface, ensuring compatibility across devices.
-Key Features
-Authentication: Users can authenticate to access personalized features and data.
-Search Functionality: Search and view art collection data from the Metropolitan Museum of Art Collection API.
-Responsive Design: The user interface is responsive and adapts well to different screen sizes.
-Getting Started
-Follow these steps to run the project locally:
-
-Installation
-Clone the repository:
-bash
-Copy code
-git clone <repository_url>
-Navigate to the project directory:
-bash
-Copy code
-cd museum-art-collection-api
-Install dependencies:
-bash
-Copy code
-npm install
-Running the Application
-Start the development server:
-bash
-Copy code
+```bash
 npm run dev
-Open your web browser and visit http://localhost:3000 to view the application.
-Additional Information
-Ensure you have Node.js and npm installed on your machine.
-Customize and extend the application as needed to add more features or enhance the user experience.
-Feel free to replace the placeholder URL with an actual image link for the museum illustration. This updated README provides clearer instructions, incorporates a visually appealing layout, and enhances the overall presentation of your project details. Adjustments can be made based on your preferences and specific project requirements.
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+Image by Abdirahman Osman
+![image](https://github.com/Abdirahman-oz/Metropolitan-Museum-of-Art-Collection-/assets/141257234/0794bbc0-228c-4417-bdbc-8798599efc50)
+
+Approach
+The frontend design follows a mobile-first approach, utilizing Bootstrap for responsive layouts and components. Authentication functionality is implemented to allow personalized user experiences.
+
+Status
+This project is complete and ready for use.
+
+Credits
+Author: Abdirahman
+License
+This project is licensed under the MIT License.
+
+Feel free to customize this README by replacing placeholders with your actual project details, such as the demo link, repository URL, and your name. You can also add more sections or details as needed to provide comprehensive information about your app. This README template is designed to present your Next.js and Bootstrap-based project in a clear and organized manner.

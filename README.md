@@ -1,40 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Museum of Art Collection API
+This project is a responsive user interface developed with Next.js for viewing data from the Metropolitan Museum of Art Collection API. The interface allows users to search and view art collection data seamlessly across various devices, with authentication functionality.
 
-## Getting Started
+Technologies Used
+Next.js: Used for building the frontend application with server-side rendering and routing capabilities.
+Bootstrap: Utilized for responsive styling and layout of the user interface, ensuring compatibility across devices.
+Features
+Authentication: Users can authenticate to access personalized features and data.
+Search Functionality: Search and view art collection data from the Metropolitan Museum of Art Collection API.
+Responsive Design: The user interface is responsive and adapts well to different screen sizes.
+Getting Started
+To run this project locally, follow these steps:
 
-First, run the development server:
-
-```bash
+Clone this repository:
+bash
+Copy code
+git clone <repository_url>
+Navigate to the project directory:
+bash
+Copy code
+cd museum-art-collection-api
+Install dependencies:
+bash
+Copy code
+npm install
+Run the development server:
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your web browser and visit http://localhost:3000 to view the application.
+Additional Notes
+Ensure you have Node.js and npm installed on your machine.
+Customize and extend the application as needed to add more features or enhance the user experience.
+Feel free to further customize this README with detailed instructions, deployment information, or any additional features and functionalities specific to your project. This template provides a structured format for documenting your Museum of Art Collection API project with authentication using Next.js and Bootstrap.

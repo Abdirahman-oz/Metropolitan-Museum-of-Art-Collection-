@@ -1,4 +1,4 @@
-Metropolitan Museum of Art Collection Viewer
+Metropolitan Museum of Art Collection
 Demo Link
 https://metropolitan-museum-of-art-collec-abdirahmans-projects-ac8fc79f.vercel.app/
 
